@@ -17,3 +17,16 @@ class ContactForm(forms.ModelForm):
             'birthday',
 
         ]
+
+
+class NoteForm(forms.ModelForm):
+   
+   class Meta:
+       model = Note 
+       fields = ['body']
+
+
+
+
+
+        
